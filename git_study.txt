@@ -1,0 +1,18 @@
+cd to dir and git clone by git shell
+git clone git@gitlab.cloudoc.cn:toumutao/cloudocbot.git
+
+git branch 查看目前分支
+git checkout master 切换到主线
+git checkout bp_feedback 切换到bp_feedback分支
+
+查看变化
+git status 
+git add file_name 
+git add *   
+git commit -m 'message details' 
+
+git push origin bp_feedback 推送到远程的分支
+
+将本地的git仓库与远端连接并推送，实现文件上传
+git remote add origin https://github.com/yousstone/python3_learning_note.git
+git push -u origin master
